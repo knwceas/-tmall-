@@ -1,0 +1,259 @@
+.main .banner {
+    background: url(../images/index/banner-photo1.jpg)  center no-repeat;
+    background-color: #09213b;
+    height: 500px;
+}
+.main .banner ul{
+    float: right;
+    margin-top: 10px;
+    margin-right: 83px;
+}
+.main .banner ul li:nth-child(1){
+    margin-bottom: 10px;
+}
+
+.main .banner .box{
+   padding-top: 468px;
+    margin-left: 590px;
+}
+.main .banner .box div{
+    float: left;
+    width: 25px;
+    height: 5px;
+    background: #08273c;
+    margin-right: 9px;
+}
+
+.main .banner .box div:nth-child(1){
+    background: #9dabb6;
+}
+
+/* 推荐模块 */
+.recom {
+    margin-top: 34px;
+    margin-left: 53px;
+}
+.recom div{
+    width: 486px;
+    float: left;
+    margin-right: 13px;
+}
+.recom div:first-child{
+    width: 234px; 
+}
+
+.recom div p{
+    padding-left: 11px;
+    height: 54px;
+    line-height: 54px;
+    margin-bottom: 1px;
+    background: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+}
+.recom div img{
+    height: 315px;
+}
+.recom div:nth-child(1) img{
+    width: 234px; 
+}
+
+.recom div:nth-child(2) img,.recom div:nth-child(3) img{
+    width: 486px;  
+}
+
+.recom div p .recom1{
+    font-size: 14px;
+    padding-left: 11px;  
+}
+
+.recom div p .recom2{
+    font-weight: normal;
+    font-size: 16px;
+    color: #666;
+    float: right;
+    margin-right: 14px; 
+}
+
+.recom div p .recom2::after{
+    font-family: 'iconfont';
+    content: '\e8ac';
+    color: #b7b7b7;
+    padding-left: 6px;
+}
+
+.brand img{
+    margin-top: 13px;
+    margin-left: 53px;
+}
+
+/* 楼层区域制作 */
+.floor1 {
+    margin-top: 24px;
+    margin-left: 53px; 
+}
+.floor1 .floor1-title img{
+    margin-bottom: 10px;
+    width: 214px;
+    height: 26px;
+}
+
+.floor1 .floor1-commodity1 img{
+    width: 234px;
+    height: 623px;
+    float: left;
+}
+
+.floor1 .total{
+    margin-left: 248px;
+}
+
+.floor1 ul .floor1-commodity2{
+    margin-bottom: 15px;
+}
+
+.floor1-commodity2>div:nth-child(2),.floor1-commodity2>div:nth-child(3),.floor1-commodity3 div{
+    width: 238px;
+    height: 304px;
+    background: #FFFFFF;
+    float: left; 
+}
+
+/* 要用>指定第一个div,否则影响到后面的div */
+.floor1-commodity2>div:nth-child(1){
+    float: left; 
+    width: 487px;
+    height: 302px;
+    position: relative;
+    background: #FFFFFF;
+}
+.lefttop{
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
+}
+.lefttop div {
+    float: left;
+}
+
+.lefttop li:nth-child(1){
+    height: 57px;
+}
+.lefttop li:nth-child(1) div{
+    width: 231px;
+    height: 57px;
+    line-height: 57px;
+    margin-right:0;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+.lefttop li:first-child div:first-child{
+    background: #00B262;
+}
+
+.lefttop li:nth-child(1) div:nth-child(2){
+    color: #333;
+    background: #F5F5F5;
+}
+
+.lefttop li:nth-child(2){
+    box-shadow: 2px 2px 2px #f4f4f4;
+    position: absolute;
+    width: 464px;
+    height: 228px;
+    background: url(../images/floor/floor1-2.png)  no-repeat 270px 37px;  
+}
+.floor1 p{
+    text-align: center;
+    color: #333;
+}
+
+.floor1 .arrowl {
+    margin-top: 86px;
+    width: 256px;
+    height: 88px;
+    background: #F5F5F5;
+}
+.floor1 .arrowl img{
+    margin: 15px 11px 11px 26px;
+}
+.floor1 .arrowl p{
+    text-align: left;
+}
+
+.floor1 .arrowl .arrowl_s{
+    font-size: 24px;
+    font-weight: 700px;
+    color: #00B262;
+    height: 50px;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+
+.floor1 .arrowl .arrowl_x{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-left: 26px;
+
+}
+
+.floor1 .arrowr {
+    /* 三角形的制作 */
+    margin-top: 86px;
+    width: 0;
+    height: 0;
+    border: 44px solid transparent;
+    border-left-color: rgb(245,245,245,0.9);
+}
+
+.floor1 .floor1-commodity2>div:nth-child(2) {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.floor1 .floor1-commodity2>div:nth-child(2) img{
+    margin-left: 70px;
+    margin-top: 45px;
+    margin-bottom: 32px;
+}
+
+.floor1 .floor1-commodity2>div:nth-child(3) img{
+    margin-left: 26px;
+    margin-top: 21px;
+    margin-bottom: 11px;
+}
+
+.floor1 .floor1-commodity3 div {
+    margin-right: 12px; 
+}
+
+.floor1 .floor1-commodity3 div img{
+    margin-left: 26px;
+    margin-top: 21px;
+    margin-bottom: 11px;
+}
+
+.total .name{
+    font-size: 14px;
+    height: 50px;
+}
+
+.total .price{
+    font-size: 18px;
+    color: #FF0036;
+    height: 44px;
+}
+
+.floor1 .floor1-commodity3 img{
+    width: 186px;
+    height: 186px;
+}
+
+.end img{
+    width: 82px;
+    height: 47px;
+    margin: 14px 628px 10px 628px;
+}
+
